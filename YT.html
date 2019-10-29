@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(107, 40, 40),rgb(207, 207, 117))">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>New Videos</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">發燒影片</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="slide">音樂</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="flip">遊戲</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slideup">新聞</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content4" data-transition="slidedown">電影</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content5" data-transition="pop">流行時尚</a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- 鋼鐵人 Page: Content  -->
+    <div id="Content1" data-role="page" style="background:-webkit-linear-gradient(rgb(218, 180, 59),rgb(62, 170, 58))">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>音樂</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div is="content" role="main" class="ui-content">
+                <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                    <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(rgb(43, 156, 48),rgb(135, 135, 218)); color:#fff;">音樂發燒</li>
+                </ul>
+                <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                    <li is="listview-li">
+                        <a  data-transition="slide">G.E.M.【WALK ON WATER】MV (電影《終結者：黑暗命運 Terminator: Dark Fate》中文主題曲) [HD] 鄧紫棋 </a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="flip">Selena Gomez - Lose You To Love Me (Official Music Video)</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="slideup">MAYDAY五月天 [ 倔強 Persistence ] feat.周杰倫 Official Live Video</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="slidedown">Coldplay - Orphans (Official Video)</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="pop">SUPER JUNIOR 슈퍼주니어 'SUPER Clap' MV</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 美國隊長 Page: Content  -->
+    <div id="Content2" data-role="page" style="background:-webkit-linear-gradient(rgb(224, 21, 21),rgb(145, 145, 30))">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>遊戲</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+                <div is="content" role="main" class="ui-content">
+                    <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                        <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">遊戲發燒</li>
+                    </ul>
+                    <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                        <li is="listview-li">
+                            <a  data-transition="slide">《LOL》2019 世界大賽 - 八強賽 DAY2</a>
+                        </li>
+                        <li is="listview-li">
+                            <a  data-transition="flip">2020 GCS | 春季前升降賽 2019/10/27 15:00《Garena 傳說對決</a>
+                        </li>
+                        <li is="listview-li">
+                            <a  data-transition="slideup">Minecraft 女僕套裝【幸運方塊】競速 😂 !! 穿❤羞恥Play❤的裝備 !!【強到被Ban掉】女僕聖劍 !! 全字幕</a>
+                        </li>
+                        <li is="listview-li">
+                            <a  data-transition="slidedown">【Stanley】砲娘打野初登場！上路&中路都可以用了打野肯定也行得通吧？重力加速度泰山壓頂無情偷巴！巧遇台服劫神攜手走向勝利！</a>
+                        </li>
+                        <li is="listview-li">
+                            <a  data-transition="pop">SKT vs SPY Khan劍姬神走位極限逃生 Teddy疊書凱莎秀歪歐蛇！Game 2 | 2019 S9世界賽 - 八強賽精華 Highlights</a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    
+    <!-- 蜘蛛人 Page: Content  -->
+    <div id="Content3" data-role="page" style="background:-webkit-linear-gradient(rgb(50, 197, 75),rgb(51, 134, 172))">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>新聞</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div is="content" role="main" class="ui-content">
+                <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                    <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">新聞發燒</li>
+                </ul>
+                <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                    <li is="listview-li">
+                        <a  data-transition="slide">今夜砲火全開！怒批民進黨 韓國瑜牽拖這些人 </a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="flip">【財經說給你聽】2個月狂砸1800億元！ 張國煒「返航」打什麼算盤？</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="slideup">韓國瑜舉「反清復明」　諷綠選舉必喊顧主權</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="slidedown">韓批總統白白胖胖　綠營縣市長也中槍</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="pop">美議員衝入聽證會 阻彈劾總統秘密調查</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    </div>
+    
+    <!-- 浩克 Page: Content  -->
+    <div id="Content4" data-role="page" style="background:-webkit-linear-gradient(rgb(168, 114, 199),rgb(221, 194, 40))">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>電影</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div is="content" role="main" class="ui-content">
+                <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                    <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">電影發燒</li>
+                </ul>
+                <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                    <li is="listview-li">
+                        <a  data-transition="slide">【猛禽小隊：小丑女大解放】首支官方預告，2020年春節 </a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="flip">Star Wars: The Rise of Skywalker | Final Trailer</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="slideup">【冰雪奇緣2】HD最終版中文電影預告</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="slidedown">《1/2的魔法》全新預告現身!</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="pop">《金牌特務：金士曼起源》正式預告 登場！2020年2月13日(四) 風格起義</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    </div>
+    
+    <!-- 雷神索爾 Page: Content  -->
+    <div id="Content5" data-role="page" style="background:-webkit-linear-gradient(rgb(147, 207, 112),rgb(34, 161, 123))">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>流行時尚</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div is="content" role="main" class="ui-content">
+                <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                    <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(rgb(153, 40, 106),rgb(37, 124, 182)); color:#fff;">流行時尚發燒</li>
+                </ul>
+                <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                    <li is="listview-li">
+                        <a  data-transition="slide">Inside Hailey Bieber’s Wedding Dress Fitting | Vogue </a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="flip">TATI BEAUTY REVIEW! Whats the Tea with Tati Westbrook Makeup</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="slideup">SO I TESTED TATI BEAUTY...</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="slidedown">Swedish Pop Star Zara Larsson’s Guide to On-Tour Glam | Beauty Secrets | Vogue</a>
+                    </li>
+                    <li is="listview-li">
+                        <a  data-transition="pop">Our MOST Stunning Palette Ever!!! MERCURY RETROGRADE |</a>
+                    </li>
+                </ul>
+            </div>
+    </div>
+    </div>
+
+    
+    
+</body>
+</html>

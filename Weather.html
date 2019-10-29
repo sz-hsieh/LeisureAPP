@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(106, 74, 180),rgb(56, 90, 165))">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>Weather</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;">Weather List</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="slide">3縣市大雨特報 麥德姆颱風最快今生成</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="flip">東北風帶水氣 北北基發布大雨特報</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slideup">今晚起轉濕冷！ 東北風增強、入夜下探20度</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content4" data-transition="slidedown">北台灣轉濕涼 中南部日夜溫差大</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content5" data-transition="pop">麥德姆颱最快今生成 氣象局：命不長</a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- 鋼鐵人 Page: Content  -->
+    <div id="Content1" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Weather</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">3縣市大雨特報 麥德姆颱風最快今生成</div>
+            變天了！受東北風影響，氣象局針對北北基3縣市發布大雨特報，今天基隆北海岸及大臺北山區有局部大雨發生的機率。氣象局說，今天起到周四天氣較不穩定，東北部一整天容易下雨，基隆北海岸則有較大雨勢；午後南部山區也會有零星陣雨。在變天降雨下，今天北台灣和宜蘭偏涼，白天高溫約24到26度，花東地區高溫約27、8度，中南部還是可以到31度左右。至於明後天大台北地區跟東半部仍然有雨，宜蘭和花蓮可能有較大雨勢。此外，在南海的熱帶性低氣壓，最快今天會增強為今年第22號颱風「麥德姆」，預計朝越南方向移動，對台灣沒有直接影響。
+            <div><img src="images/W1.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 美國隊長 Page: Content  -->
+    <div id="Content2" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Weather</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">東北風帶水氣 北北基發布大雨特報</div>
+            受到東北風影響，中央氣象局在今（29）上午10時40分針對北台灣三縣市發布大雨特報。基隆北海岸及大臺北山區有局部大雨發生的機率，提醒民眾特別注意。大雨特報縣市：台北市、新北市、基隆市。根據氣象局上午8時最新觀測，熱帶性低氣壓TD28中心位置在北緯 11.6 度，東經 115.0 度，以每小時18公里速度向西北西進行。中心氣壓1002百帕，近中心最大風速每秒15公尺，瞬間最大陣風每秒 23 公尺。最快今日將形成今年第22號颱風「麥德姆」（Matmo，美國提供，關島查莫洛語的大雨）。不過依照目前觀測。它可能在週三晚間接近中南半島陸地，對台灣沒有影響。中央氣象局指出，今日東北風增強，北部及東北部天氣轉涼，其他地區早晚亦涼，中南部日夜溫差大；臺灣東北部地區有短暫雨，基隆北海岸並有局部較大雨勢發生的機率，北部、東部及東南部地區有局部短暫雨，其他地區及澎湖、金門、馬祖為多雲到晴，午後南部山區有零星短暫陣雨。明日東北風影響，北部及東北部天氣稍涼，其他地區早晚亦涼，中南部日夜溫差大；臺灣東半部及大臺北地區有局部短暫雨，東北部及東部地區並有局部較大雨勢發生的機率，其他地區及澎湖、金門、馬祖為多雲到晴，午後南部山區有零星短暫陣雨。天氣風險公司也提醒，週三開始宜蘭、花蓮慎防大雨，特別是沿海一帶，「整天都在下的話，累積起來也是滿可觀的。」這一波變天一直持續到週五，東北風慢慢減弱北東高溫才會回升到26-27度。（林昀萱報導）
+            <div><img src="images/w2.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 蜘蛛人 Page: Content  -->
+    <div id="Content3" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Weather</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">今晚起轉濕冷！ 東北風增強、入夜下探20度</div>
+            今天早上出門，還是一如往常，可能會感覺到比較涼一些，建議早出晚歸還是要帶一件薄外套；清晨各地最低溫來到22度，氣象局預估，今天北台灣及東半部高溫約28、29度，中南部仍可到31度左右，夜晚清晨各地低溫約20至22度，西半部日夜溫差仍大，請留意氣溫變化調整穿著。秋天天氣穩定! 專家籲把握氣象局表示，今(28)日各地多雲到晴，只有基隆北海岸、東北部地區及大台北山區仍有局部短暫雨，東部及東南部地區亦有零星短暫雨，午後南部地區及中部以北山區有零星短暫陣雨。氣象達人彭啟明表示，最近的天氣都相當穩定，這是典型的秋季天氣，適合戶外活動，建議您把握舒服的天氣。晚起高壓影響 東北風增強彭啟明提醒，今天白天仍維持昨天溫暖的天氣型態，但晚上開始，高壓的外圍影響勢力逐步影響，東北風會稍微增強，北部東半部的迎風面會開始雲量增多，也會有零星的地形降雨，其他北部東部也會偶雨，明顯有濕涼的感覺，溫度也會明顯下滑。週三起持續性降雨 留意空氣品質彭啟明指出，週三開始，東北部的東北角到宜蘭，很容易有持續性的降雨，可能雨勢會持續到週四、五，北、東部也有零星的飄雨。至於中南部的變化不是很大，溫度會稍降1、2度，感受沒那麼明顯，還不受到東北風的影響，但要留意大氣穩定，擴散條件較差，容易空氣品質達到敏感族群不健康等級，尤其午後到傍晚這段期間。
+            <div><img src="images/w5.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 浩克 Page: Content  -->
+    <div id="Content4" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Weather</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">北台灣轉濕涼 中南部日夜溫差大</div>
+            中央氣象局表示，今(29)日東北風增強，東北部地區有短暫雨，北部、花東地區也有局部短暫雨，其中基隆北海岸有局部較大雨勢發生的機率。溫度方面，今日北台灣及宜蘭高溫下降，整日偏涼，白天高溫約24至26度，花東地區高溫約27、28度，中南部仍可到31度左右；夜晚清晨各地低溫則約20至23度，中南部日夜溫差仍大，請留意氣溫變化調整穿著。氣象局指出，未來一週東北風持續影響，各地早晚涼冷，中南部日夜溫差大；主要降雨在北部、東半部，降雨狀況則要視水氣多寡而定。氣象局提醒，受東北風影響，台南以北、東南部（含綠島、蘭嶼）、恆春半島沿海空曠地區及澎湖、金門易有8至9級強陣風，前往海邊活動請注意安全。
+            <div><img src="images/w3.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- 雷神索爾 Page: Content  -->
+    <div id="Content5" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Weather</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">麥德姆颱最快今生成 氣象局：命不長</div>
+            位於南沙島海面上的熱帶性低氣壓，氣象局指出有發展成輕度颱風的趨勢，而且最快今天下半天到今晚就會成颱。如果成颱，將是今年第22號颱風「麥德姆」（Matmo）。目前準麥德姆颱風逐漸靠近中南半島陸地，「台灣颱風論壇｜天氣特急」臉書專頁表示，準麥德姆朝越南前進，預計明後天登陸，命不會太長！熱帶低壓98W快要變颱風了，名稱會是「麥德姆」。「台灣颱風論壇｜天氣特急」臉書專頁提醒民眾，尤其是要往越南的民眾，因為準麥德姆朝越南前進，預計明後天登陸，不過準麥德姆本身跟台灣沒有關係，有關係的是，它往西減弱後殘留的水氣。這些水氣會北漂上台灣，配合東北風，明後天，北北基、東半部的雨更多，特別是基隆、宜花的雨勢可能較大，加上溫度不高，感受上會很濕涼，中南部則沒什麼改變，天氣好、空品差、日夜溫差大。
+            <div><img src="images/w4.jpg" style="width:100%;"></div>
+        </div>
+    </div>
+
+  
+    
+</body>
+</html>

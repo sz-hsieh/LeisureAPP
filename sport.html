@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(126, 75, 75),rgb(121, 121, 23))">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>Team</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(rgb(28, 28, 58),rgb(128, 128, 209)); color:#fff;">NBA</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content1" data-transition="slide">芝加哥公牛 Chicago Bulls</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="flip">洛杉磯湖人 Los Angeles Lakers</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slideup">波士頓賽爾提克 Boston Celtics</a>
+                </li>
+            </ul>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,rgb(168, 160, 39)); color:#fff;">MLB</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="DC_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content4" data-transition="slide">紐約洋基 New York Yankees</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content5" data-transition="flip">波士頓紅襪 Boston Red Sox</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content6" data-transition="slideup">洛杉磯道奇 Los Angeles Dodgers</a>
+                </li>
+            </ul>
+        </div>
+
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,rgb(39, 110, 25)); color:#fff;">CPBL</li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="DC_list" style="margin:0;">
+                <li is="listview-li">
+                    <a href="#Content7" data-transition="slide">中信兄弟</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content8" data-transition="flip">Lamigo桃猿</a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content9" data-transition="slideup">統一獅</a>
+                </li>
+            </ul>
+        </div>
+    </div>    
+    
+    <!-- 公牛-->
+    <div id="Content1" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>SuperStar</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Chicago Bulls SuperStars</div>
+            <div style="margin-top: 30px;" role="main" class="ui-content">
+
+                <div is="grid" class="ui-grid-b" style="height:130px">
+                    <div class="ui-block-a" style="height:100%;text-align:center">
+                        <img  src="images/Jordan.jpg" style="width:70px; margin:0px 10px 0px 12px">
+                        <h5  style="text-align:center; margin-top:-5px;">Michael Jordan</h5>
+                    </div>
+                    <div class="ui-block-b" style="height:100%;text-align:center">
+                        <img  src="images/Dennis_Rodman.jpg" style="width:60px; margin:5px 15px 5px 25px">
+                        <h5  style="text-align:center; margin-top:-5px;">Dennis Rodman</h5>
+                        </a>
+                    </div>
+                    <div class="ui-block-c" style="height:100%;text-align:center">
+                        <img  src="images/Pippen.jpg" style="width:70px; margin-left:6px;">
+                        <h5  style="text-align:center; margin-top:-5px;margin-left:20px;">Scottie Pippen</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><img src="images/Chicago_Bulls_wordmark.gif" style="width:100%;"></div>
+    </div>
+    
+    <!-- 湖人 Page: Content  -->
+    <div id="Content2" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Los Angeles Lakers SuperStars</div>
+            <div style="margin-top: 30px;" role="main" class="ui-content">
+
+                <div is="grid" class="ui-grid-b" style="height:130px">
+                    <div class="ui-block-a" style="height:100%;text-align:center">
+                        <img  src="images/Kobe.jpg" style="width:70px; margin:0px 10px 0px 12px">
+                        <h5  style="text-align:center; margin-top:-5px;">Kobe Bryant</h5>
+                    </div>
+                    <div class="ui-block-b" style="height:100%;text-align:center">
+                        <img  src="images/Shaquille_O'Neal.jpg" style="width:60px; margin:5px 15px 5px 25px">
+                        <h5  style="text-align:center; margin-top:-5px;">Shaquille O'Neal</h5>
+                        </a>
+                    </div>
+                    <div class="ui-block-c" style="height:100%;text-align:center">
+                        <img  src="images/Steve_Nash.jpg" style="width:70px; margin-left:6px;">
+                        <h5  style="text-align:center; margin-top:-5px;margin-left:20px;">Steve Nash</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div><img src="images/1920px-Los_Angeles_Lakers_logo.svg.png" style="width:100%;"></div>
+    </div>
+    
+    <!-- BOS Page: Content  -->
+    <div id="Content3" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+            <div class="ui-content">
+                <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Boston Celtics SuperStars</div>
+                <div style="margin-top: 30px;" role="main" class="ui-content">
+    
+                    <div is="grid" class="ui-grid-b" style="height:130px">
+                        <div class="ui-block-a" style="height:100%;text-align:center">
+                            <img  src="images/200px-Paul_pierce_1.jpg" style="width:70px; margin:0px 10px 0px 12px">
+                            <h5  style="text-align:center; margin-top:-5px;">Paul pierce </h5>
+                        </div>
+                        <div class="ui-block-b" style="height:100%;text-align:center">
+                            <img  src="images/200px-Ray_Allen_2008-01-13.jpg" style="width:60px; margin:5px 15px 5px 25px">
+                            <h5  style="text-align:center; margin-top:-5px;">Ray Allen</h5>
+                            </a>
+                        </div>
+                        <div class="ui-block-c" style="height:100%;text-align:center">
+                            <img  src="images/200px-Kevin_Garnett_2008.jpg" style="width:70px; margin-left:6px;">
+                            <h5  style="text-align:center; margin-top:-5px;margin-left:20px;">Kevin Garnett</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div><img src="images/Boston_Celtics_logo.png" style="width:100%;"></div>
+    </div>
+    
+    <!-- NY Page: Content  -->
+    <div id="Content4" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+            <div class="ui-content">
+                <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">New York Yankees SuperStars</div>
+                <div style="margin-top: 30px;" role="main" class="ui-content">
+    
+                    <div is="grid" class="ui-grid-b" style="height:130px">
+                        <div class="ui-block-a" style="height:100%;text-align:center">
+                            <img  src="images/250px-Derek_Jeter_batting_stance_allison.jpg" style="width:70px; margin:0px 10px 0px 12px">
+                            <h5  style="text-align:center; margin-top:-5px;">Derek Jeter </h5>
+                        </div>
+                        <div class="ui-block-b" style="height:100%;text-align:center">
+                            <img  src="images/250px-Alex_Rodriguez_2008-04-19.jpg" style="width:60px; margin:5px 15px 5px 25px">
+                            <h5  style="text-align:center; margin-top:-5px;">Alex Rodriguez</h5>
+                            </a>
+                        </div>
+                        <div class="ui-block-c" style="height:100%;text-align:center">
+                            <img  src="images/220px-Babe_Ruth2.jpg" style="width:70px; margin-left:6px;">
+                            <h5  style="text-align:center; margin-top:-5px;margin-left:20px;">Babe Ruth</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div><img src="images/800px-New_York_Yankees_logo.svg.png" style="width:100%;"></div>
+    </div>
+    
+    <!-- BOS Page: Content  -->
+    <div id="Content5" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div class="ui-content">
+                <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Boston Red Sox SuperStars</div>
+                <div style="margin-top: 30px;" role="main" class="ui-content">
+    
+                    <div is="grid" class="ui-grid-b" style="height:130px">
+                        <div class="ui-block-a" style="height:100%;text-align:center">
+                            <img  src="images/300px-Wakefield_Throws_a_Knuckleball.jpg" style="width:70px; margin:0px 10px 0px 12px">
+                            <h5  style="text-align:center; margin-top:-5px;">Tim Wakefield </h5>
+                        </div>
+                        <div class="ui-block-b" style="height:100%;text-align:center">
+                            <img  src="images/330px-Cy_young_pitching.jpg" style="width:60px; margin:5px 15px 5px 25px">
+                            <h5  style="text-align:center; margin-top:-5px;">Cy young</h5>
+                            </a>
+                        </div>
+                        <div class="ui-block-c" style="height:100%;text-align:center">
+                            <img  src="images/300px-SchillingNew.jpg" style="width:70px; margin-left:6px;">
+                            <h5  style="text-align:center; margin-top:-5px;margin-left:20px;">Curt Schillin</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div><img src="images/Boston_Red_Sox.png" style="width:100%;"></div>
+        </div>
+    </div>
+
+    <!-- LA  -->
+    <div id="Content6" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div class="ui-content">
+                <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Boston Red Sox SuperStars</div>
+                <div style="margin-top: 30px;" role="main" class="ui-content">
+    
+                    <div is="grid" class="ui-grid-b" style="height:130px">
+                        <div class="ui-block-a" style="height:100%;text-align:center">
+                            <img  src="images/250px-Joe_Torre_2012.jpg" style="width:70px; margin:0px 10px 0px 12px">
+                            <h5  style="text-align:center; margin-top:-5px;">Joe Torre </h5>
+                        </div>
+                        <div class="ui-block-b" style="height:100%;text-align:center">
+                            <img  src="images/250px-Mike_Piazza_spring_of_2004.jpg" style="width:60px; margin:5px 15px 5px 25px">
+                            <h5  style="text-align:center; margin-top:-5px;">Mike Piazza</h5>
+                            </a>
+                        </div>
+                        <div class="ui-block-c" style="height:100%;text-align:center">
+                            <img  src="images/220px-Clayton_Kershaw_on_July_23,_2015_(2).jpg" style="width:70px; margin-left:6px;">
+                            <h5  style="text-align:center; margin-top:-5px;margin-left:20px;">Clayton Kershaw</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div><img src="images/800px-Los_Angeles_Dodgers_Logo.svg.png" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- CP1  -->
+    <div id="Content7" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div class="ui-content">
+                <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">中信兄弟 SuperStars</div>
+                <div style="margin-top: 30px;" role="main" class="ui-content">
+    
+                    <div is="grid" class="ui-grid-b" style="height:130px">
+                        <div class="ui-block-a" style="height:100%;text-align:center">
+                            <img  src="images/CP1.jpg" style="width:70px; margin:0px 10px 0px 12px">
+                            <h5  style="text-align:center; margin-top:-5px;">彭政閔 </h5>
+                        </div>
+                        <div class="ui-block-b" style="height:100%;text-align:center">
+                            <img  src="images/CP2.jpg" style="width:60px; margin:5px 15px 5px 25px">
+                            <h5  style="text-align:center; margin-top:-5px;">周思齊</h5>
+                            </a>
+                        </div>
+                        <div class="ui-block-c" style="height:100%;text-align:center">
+                            <img  src="images/CP3.jpg" style="width:70px; margin-left:6px;">
+                            <h5  style="text-align:center; margin-top:-5px;margin-left:20px;">林智勝</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div><img src="images/Cpbl-stast-chinatrust-brothers.png" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- CP2  -->
+    <div id="Content8" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div class="ui-content">
+                <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">Lamigo桃猿 SuperStars</div>
+                <div style="margin-top: 30px;" role="main" class="ui-content">
+    
+                    <div is="grid" class="ui-grid-b" style="height:130px">
+                        <div class="ui-block-a" style="height:100%;text-align:center">
+                            <img  src="images/CP4.jpg" style="width:70px; margin:0px 10px 0px 12px">
+                            <h5  style="text-align:center; margin-top:-5px;">陳金鋒 </h5>
+                        </div>
+                        <div class="ui-block-b" style="height:100%;text-align:center">
+                            <img  src="images/CP5.jpg" style="width:60px; margin:5px 15px 5px 25px">
+                            <h5  style="text-align:center; margin-top:-5px;">王柏融</h5>
+                            </a>
+                        </div>
+                        <div class="ui-block-c" style="height:100%;text-align:center">
+                            <img  src="images/CP6.jpg" style="width:70px; margin-left:6px;">
+                            <h5  style="text-align:center; margin-top:-5px;margin-left:20px;">林泓育</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div><img src="images/Cpbl-stats-lamigo-monkeys-2017.png" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    <!-- CP3 -->
+    <div id="Content9" data-role="page">
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Story</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+        <div class="ui-content">
+            <div class="ui-content">
+                <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;">統一獅 SuperStars</div>
+                <div style="margin-top: 30px;" role="main" class="ui-content">
+    
+                    <div is="grid" class="ui-grid-b" style="height:130px">
+                        <div class="ui-block-a" style="height:100%;text-align:center">
+                            <img  src="images/CP7.jpg" style="width:70px; margin:0px 10px 0px 12px">
+                            <h5  style="text-align:center; margin-top:-5px;">潘威倫 </h5>
+                        </div>
+                        <div class="ui-block-b" style="height:100%;text-align:center">
+                            <img  src="images/CP8.jpg" style="width:60px; margin:5px 15px 5px 25px">
+                            <h5  style="text-align:center; margin-top:-5px;">陳鏞基</h5>
+                            </a>
+                        </div>
+                        <div class="ui-block-c" style="height:100%;text-align:center">
+                            <img  src="images/CP9.jpg" style="width:60px; margin-left:6px;">
+                            <h5  style="text-align:center; margin-top:-5px;margin-left:20px;">高志綱</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div><img src="images/Cpbl-stats-uni-president-7-ele.png" style="width:100%;"></div>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
